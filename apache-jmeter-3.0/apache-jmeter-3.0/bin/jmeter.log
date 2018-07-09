@@ -1,300 +1,284 @@
-2017/12/22 12:54:27 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Loading user properties from: E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\user.properties 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Loading system properties from: E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\system.properties 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Version 3.0 r1743807 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: java.version=1.8.0_111 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: os.name=Windows 7 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: os.arch=amd64 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: os.version=6.1 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: file.encoding=Cp1252 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Max memory     =3749183488 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Available Processors =4 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: JMeterHome=E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: user.dir  =E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: PWD       =E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: IP: 192.168.56.1 Name: deltdwiv162330 FullName: deltdwiv162330.sapient.com 
-2017/12/22 12:54:27 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
-2017/12/22 12:54:27 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2017/12/22 12:54:28 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2017/12/22 12:54:28 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2017/12/22 12:54:29 INFO  - jmeter.gui.util.MenuFactory: Skipping kg.apc.jmeter.config.VariablesFromCSVFile 
-2017/12/22 12:54:29 WARN  - jmeter.gui.util.MenuFactory: Missing jar? Could not create kg.apc.jmeter.config.redis.RedisDataSet. java.lang.NoClassDefFoundError: org/apache/commons/pool/impl/GenericObjectPool$Config 
-2017/12/22 12:54:29 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2017/12/22 12:54:30 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2017/12/22 12:54:30 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\proxyserver.jks 
-2017/12/22 12:54:30 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
-2017/12/22 12:54:30 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
-2017/12/22 12:54:31 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
-2017/12/22 12:54:31 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2017/12/22 12:54:31 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2017/12/22 12:54:31 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2017/12/22 12:54:31 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2017/12/22 12:54:31 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
-2017/12/22 12:54:44 INFO  - jmeter.services.FileServer: Default base='E:\PROJECTS\AEM\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin' 
-2017/12/22 12:54:44 INFO  - jmeter.gui.action.Load: Loading file: E:\PROJECTS\AEM\JenkinsDemo\STC.jmx 
-2017/12/22 12:54:44 INFO  - jmeter.services.FileServer: Set new base='E:\PROJECTS\AEM\JenkinsDemo' 
-2017/12/22 12:54:44 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2017/12/22 12:54:44 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2017/12/22 12:54:44 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
-2017/12/22 12:54:44 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2017/12/22 12:54:44 INFO  - jmeter.save.SaveService: Loading file: E:\PROJECTS\AEM\JenkinsDemo\STC.jmx 
-2017/12/22 12:54:44 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
-2017/12/22 12:54:44 INFO  - jmeter.services.FileServer: Set new base='E:\PROJECTS\AEM\JenkinsDemo' 
-2017/12/22 12:54:59 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2017/12/22 12:54:59 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/12/22 12:54:59 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2017/12/22 12:54:59 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : STC_Home_QA 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 8 threads for group STC_Home_QA. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 8 ramp-up 30 perThread 3750.0 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-1 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : STC_QA_WhereWeWork 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 7 threads for group STC_QA_WhereWeWork. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 7 ramp-up 30 perThread 4285.7144 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-1 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : STC_QA_SearchPage 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 7 threads for group STC_QA_SearchPage. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 7 ramp-up 30 perThread 4285.7144 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-1 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 4 : STC_QA_DonationPage 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 7 threads for group STC_QA_DonationPage. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 4 threads 7 ramp-up 30 perThread 4285.7144 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 4 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 5 : STC_QA_Howyoucanhelp 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 7 threads for group STC_QA_Howyoucanhelp. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 5 threads 7 ramp-up 30 perThread 4285.7144 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-1 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-1 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 5 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 6 : STC_QA_Aboutus 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 7 threads for group STC_QA_Aboutus. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 6 threads 7 ramp-up 30 perThread 4285.7144 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-1 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 6 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 7 : STC_QA_Shop 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Starting 7 threads for group STC_QA_Shop. 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 7 threads 7 ramp-up 30 perThread 4285.7144 delayedStart=false 
-2017/12/22 12:55:00 INFO  - jmeter.threads.ThreadGroup: Started thread group number 7 
-2017/12/22 12:55:00 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2017/12/22 12:55:00 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-1 
-2017/12/22 12:55:03 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-2 
-2017/12/22 12:55:04 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-2 
-2017/12/22 12:55:04 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-2 
-2017/12/22 12:55:04 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-2 
-2017/12/22 12:55:04 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-2 
-2017/12/22 12:55:04 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-2 
-2017/12/22 12:55:04 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-2 
-2017/12/22 12:55:07 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-3 
-2017/12/22 12:55:08 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-3 
-2017/12/22 12:55:08 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-3 
-2017/12/22 12:55:08 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-3 
-2017/12/22 12:55:08 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-3 
-2017/12/22 12:55:08 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-3 
-2017/12/22 12:55:08 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-3 
-2017/12/22 12:55:11 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-4 
-2017/12/22 12:55:12 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-4 
-2017/12/22 12:55:12 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-4 
-2017/12/22 12:55:12 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-4 
-2017/12/22 12:55:12 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-4 
-2017/12/22 12:55:12 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-4 
-2017/12/22 12:55:12 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-4 
-2017/12/22 12:55:15 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-5 
-2017/12/22 12:55:17 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-5 
-2017/12/22 12:55:17 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-5 
-2017/12/22 12:55:17 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-5 
-2017/12/22 12:55:17 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-5 
-2017/12/22 12:55:17 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-5 
-2017/12/22 12:55:17 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-5 
-2017/12/22 12:55:18 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-6 
-2017/12/22 12:55:21 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-6 
-2017/12/22 12:55:21 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-6 
-2017/12/22 12:55:21 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-6 
-2017/12/22 12:55:21 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-6 
-2017/12/22 12:55:21 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-6 
-2017/12/22 12:55:21 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-6 
-2017/12/22 12:55:22 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-7 
-2017/12/22 12:55:25 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_WhereWeWork 2-7 
-2017/12/22 12:55:25 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_SearchPage 3-7 
-2017/12/22 12:55:25 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_DonationPage 4-7 
-2017/12/22 12:55:25 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Howyoucanhelp 5-7 
-2017/12/22 12:55:25 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Shop 7-7 
-2017/12/22 12:55:25 INFO  - jmeter.threads.JMeterThread: Thread started: STC_QA_Aboutus 6-7 
-2017/12/22 12:55:26 INFO  - jmeter.threads.JMeterThread: Thread started: STC_Home_QA 1-8 
-2017/12/22 12:55:56 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = deltdwiv162330 
-2017/12/22 12:55:56 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
-2017/12/22 12:56:00 INFO  - jmeter.reporters.Summariser: Generate Summary Results +      9 in 00:01:01 =    0.1/s Avg:    38 Min:     1 Max:    50 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
-2017/12/22 12:56:08 INFO  - jmeter.gui.action.Start: Stopping test 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-8 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_Home_QA 1-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-2 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-8 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-4 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-1 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_WhereWeWork 2-5 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_SearchPage 3-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_DonationPage 4-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Howyoucanhelp 5-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Aboutus 6-1 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Stopping: STC_QA_Shop 7-7 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-1 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-2 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-4 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-6 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-7 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-6 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-3 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-3 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-1 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-1 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-7 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-3 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-2 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-5 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-5 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-1 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-6 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-6 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-2 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-2 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-4 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-5 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-7 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-6 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-2 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Howyoucanhelp 5-5 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Aboutus 6-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-7 
-2017/12/22 12:56:08 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_Shop 7-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_Home_QA 1-7 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_SearchPage 3-4 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_DonationPage 4-3 
-2017/12/22 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: STC_QA_WhereWeWork 2-7 
-2017/12/22 12:56:08 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2017/12/22 12:56:08 INFO  - jmeter.reporters.Summariser: Generate Summary Results +     13 in 00:00:08 =    1.5/s Avg:     0 Min:     0 Max:     2 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50 
-2017/12/22 12:56:08 INFO  - jmeter.reporters.Summariser: Generate Summary Results =     22 in 00:01:09 =    0.3/s Avg:    16 Min:     0 Max:    50 Err:     0 (0.00%) 
-2017/12/22 12:56:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/09 12:36:56 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_IN 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Loading user properties from: D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\user.properties 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Loading system properties from: D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\system.properties 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: java.version=1.8.0_161 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: os.name=Windows 10 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: os.version=10.0 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Max memory     =3790077952 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Available Processors =4 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: Default Locale=English (India) 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: JMeter  Locale=English (India) 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: JMeterHome=D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: user.dir  =D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
+2018/07/09 12:36:56 INFO  - jmeter.JMeter: PWD       =D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
+2018/07/09 12:37:05 INFO  - jmeter.JMeter: IP: 169.254.99.161 Name: IN-TDWIVEDI FullName: IN-TDWIVEDI.mycom-internal.com 
+2018/07/09 12:37:06 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2018/07/09 12:37:06 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2018/07/09 12:37:07 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/07/09 12:37:07 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/07/09 12:37:08 INFO  - jmeter.gui.util.MenuFactory: Skipping kg.apc.jmeter.config.VariablesFromCSVFile 
+2018/07/09 12:37:08 WARN  - jmeter.gui.util.MenuFactory: Missing jar? Could not create kg.apc.jmeter.config.redis.RedisDataSet. java.lang.NoClassDefFoundError: org/apache/commons/pool/impl/GenericObjectPool$Config 
+2018/07/09 12:37:09 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/07/09 12:37:10 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2018/07/09 12:37:10 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\proxyserver.jks 
+2018/07/09 12:37:10 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2018/07/09 12:37:10 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2018/07/09 12:37:11 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/07/09 12:37:11 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2018/07/09 12:37:23 INFO  - jmeter.services.FileServer: Default base='D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin' 
+2018/07/09 12:37:23 INFO  - jmeter.gui.action.Load: Loading file: D:\GIT\JenkinsDemo\DB_Plan.jmx 
+2018/07/09 12:37:23 INFO  - jmeter.services.FileServer: Set new base='D:\GIT\JenkinsDemo' 
+2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Loading file: D:\GIT\JenkinsDemo\DB_Plan.jmx 
+2018/07/09 12:37:24 WARN  - jmeter.gui.action.Load: Unexpected error java.lang.IllegalArgumentException: Problem loading XML from:'D:\GIT\JenkinsDemo\DB_Plan.jmx', missing class com.thoughtworks.xstream.converters.ConversionException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+------------------------------- : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+-------------------------------
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+-------------------------------
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+first-jmeter-class  : org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:107)
+class               : org.apache.jmeter.save.ScriptWrapper
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+version             : 3.0 r1743807
+-------------------------------
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:539)
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:503)
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:130)
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102)
+	at org.apache.jmeter.gui.action.LoadDraggedFile.loadProject(LoadDraggedFile.java:38)
+	at org.apache.jmeter.gui.MainFrame.openJmxFilesFromDragAndDrop(MainFrame.java:811)
+	at org.apache.jmeter.gui.tree.JMeterTreeTransferHandler.importData(JMeterTreeTransferHandler.java:216)
+	at javax.swing.TransferHandler$DropHandler.drop(Unknown Source)
+	at java.awt.dnd.DropTarget.drop(Unknown Source)
+	at javax.swing.TransferHandler$SwingDropTarget.drop(Unknown Source)
+	at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(Unknown Source)
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(Unknown Source)
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(Unknown Source)
+	at sun.awt.dnd.SunDropTargetEvent.dispatch(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processDropTargetEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.thoughtworks.xstream.converters.ConversionException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+------------------------------- : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+-------------------------------
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+-------------------------------
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+first-jmeter-class  : org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:107)
+class               : org.apache.jmeter.save.ScriptWrapper
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+version             : 3.0 r1743807
+-------------------------------
+	at org.apache.jmeter.save.ScriptWrapperConverter.createConversionException(ScriptWrapperConverter.java:103)
+	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:97)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1206)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1190)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1061)
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:524)
+	... 40 more
+Caused by: com.thoughtworks.xstream.converters.ConversionException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+---- Debugging information ----
+message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
+cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+class               : org.apache.jmeter.samplers.SampleSaveConfiguration
+required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
+converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
+line number         : 162
+class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.jmeter.reporters.ResultCollector
+converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
+class[3]            : org.apache.jorphan.collections.ListedHashTree
+converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
+-------------------------------
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:79)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:480)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:412)
+	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:263)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+	at org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:107)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
+	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:95)
+	... 50 more
+Caused by: com.thoughtworks.xstream.converters.reflection.MissingFieldException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
+	at com.thoughtworks.xstream.converters.reflection.FieldDictionary.field(FieldDictionary.java:94)
+	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(PureJavaReflectionProvider.java:189)
+	at org.apache.jmeter.save.converters.SampleSaveConfigurationConverter.unmarshal(SampleSaveConfigurationConverter.java:167)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
+	... 84 more
+

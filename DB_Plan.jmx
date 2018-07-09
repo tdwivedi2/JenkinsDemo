@@ -30,10 +30,10 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">10</stringProp>
-        <longProp name="ThreadGroup.start_time">1530631973000</longProp>
-        <longProp name="ThreadGroup.end_time">1530631973000</longProp>
+        <longProp name="ThreadGroup.start_time">1531121632000</longProp>
+        <longProp name="ThreadGroup.end_time">1531121632000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">${Duration}</stringProp>
+        <stringProp name="ThreadGroup.duration">${DURATION}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
