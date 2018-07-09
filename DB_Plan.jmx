@@ -7,9 +7,9 @@
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="Duration" elementType="Argument">
-            <stringProp name="Argument.name">Duration</stringProp>
-            <stringProp name="Argument.value">${__P(Duration,60)}</stringProp>
+          <elementProp name="DURATION" elementType="Argument">
+            <stringProp name="Argument.name">DURATION</stringProp>
+            <stringProp name="Argument.value">${__P(DURATION,60)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="TARGET_HOST" elementType="Argument">
@@ -28,8 +28,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
         <longProp name="ThreadGroup.start_time">1530631973000</longProp>
         <longProp name="ThreadGroup.end_time">1530631973000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
@@ -37,6 +37,18 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">C:\Users\tdwivedi\Desktop\DB Purge\table_name.txt</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">TABLE</stringProp>
+        </CSVDataSet>
+        <hashTree/>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Transaction Controller" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
@@ -60,11 +72,11 @@
           <hashTree/>
           <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request" enabled="true">
             <stringProp name="dataSource">Pool1</stringProp>
-            <stringProp name="query">SELECT COUNT(1),TABLE_NAME FROM USER_TAB_PARTITIONS WHERE TABLE_NAME IN (&apos;NETWORK_OBJECT&apos;,&apos;NE_PARENT&apos;,&apos;MOC_ATTRIBUTE_VALUE&apos;,&apos;NE_IMPORT_MAPPING&apos;) GROUP BY TABLE_NAME</stringProp>
+            <stringProp name="query">SELECT COUNT(1),TABLE_NAME FROM USER_TAB_PARTITIONS WHERE TABLE_NAME IN (&apos;${TABLE}&apos;) GROUP BY TABLE_NAME</stringProp>
             <stringProp name="queryArguments"></stringProp>
             <stringProp name="queryArgumentsTypes"></stringProp>
             <stringProp name="queryTimeout"></stringProp>
-            <stringProp name="queryType">Prepared Select Statement</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
             <stringProp name="resultSetHandler">Store as Object</stringProp>
             <stringProp name="resultVariable">RESULT</stringProp>
             <stringProp name="variableNames">COUNT,TABLE</stringProp>
