@@ -1,132 +1,382 @@
-2018/07/09 12:36:56 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_IN 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Loading user properties from: D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\user.properties 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Loading system properties from: D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\system.properties 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Version 3.0 r1743807 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: java.version=1.8.0_161 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: os.name=Windows 10 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: os.arch=amd64 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: os.version=10.0 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: file.encoding=Cp1252 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Max memory     =3790077952 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Available Processors =4 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: Default Locale=English (India) 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: JMeter  Locale=English (India) 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: JMeterHome=D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: user.dir  =D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
-2018/07/09 12:36:56 INFO  - jmeter.JMeter: PWD       =D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
-2018/07/09 12:37:05 INFO  - jmeter.JMeter: IP: 169.254.99.161 Name: IN-TDWIVEDI FullName: IN-TDWIVEDI.mycom-internal.com 
-2018/07/09 12:37:06 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
-2018/07/09 12:37:06 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2018/07/09 12:37:07 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2018/07/09 12:37:07 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2018/07/09 12:37:08 INFO  - jmeter.gui.util.MenuFactory: Skipping kg.apc.jmeter.config.VariablesFromCSVFile 
-2018/07/09 12:37:08 WARN  - jmeter.gui.util.MenuFactory: Missing jar? Could not create kg.apc.jmeter.config.redis.RedisDataSet. java.lang.NoClassDefFoundError: org/apache/commons/pool/impl/GenericObjectPool$Config 
-2018/07/09 12:37:09 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2018/07/09 12:37:09 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2018/07/09 12:37:10 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2018/07/09 12:37:10 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\proxyserver.jks 
-2018/07/09 12:37:10 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
-2018/07/09 12:37:10 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
-2018/07/09 12:37:11 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
-2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2018/07/09 12:37:11 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2018/07/09 12:37:11 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
-2018/07/09 12:37:23 INFO  - jmeter.services.FileServer: Default base='D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin' 
-2018/07/09 12:37:23 INFO  - jmeter.gui.action.Load: Loading file: D:\GIT\JenkinsDemo\DB_Plan.jmx 
-2018/07/09 12:37:23 INFO  - jmeter.services.FileServer: Set new base='D:\GIT\JenkinsDemo' 
-2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
-2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2018/07/09 12:37:24 INFO  - jmeter.save.SaveService: Loading file: D:\GIT\JenkinsDemo\DB_Plan.jmx 
-2018/07/09 12:37:24 WARN  - jmeter.gui.action.Load: Unexpected error java.lang.IllegalArgumentException: Problem loading XML from:'D:\GIT\JenkinsDemo\DB_Plan.jmx', missing class com.thoughtworks.xstream.converters.ConversionException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
-------------------------------- : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
--------------------------------
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
--------------------------------
-cause-exception     : com.thoughtworks.xstream.converters.ConversionException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-first-jmeter-class  : org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:107)
-class               : org.apache.jmeter.save.ScriptWrapper
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-version             : 3.0 r1743807
--------------------------------
-	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:539)
-	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:503)
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:130)
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102)
-	at org.apache.jmeter.gui.action.LoadDraggedFile.loadProject(LoadDraggedFile.java:38)
-	at org.apache.jmeter.gui.MainFrame.openJmxFilesFromDragAndDrop(MainFrame.java:811)
-	at org.apache.jmeter.gui.tree.JMeterTreeTransferHandler.importData(JMeterTreeTransferHandler.java:216)
-	at javax.swing.TransferHandler$DropHandler.drop(Unknown Source)
-	at java.awt.dnd.DropTarget.drop(Unknown Source)
-	at javax.swing.TransferHandler$SwingDropTarget.drop(Unknown Source)
-	at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(Unknown Source)
-	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(Unknown Source)
-	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(Unknown Source)
-	at sun.awt.dnd.SunDropTargetEvent.dispatch(Unknown Source)
+2018/07/11 09:15:09 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_IN 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Loading user properties from: D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\user.properties 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Loading system properties from: D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\system.properties 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: java.version=1.8.0_161 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: os.name=Windows 10 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: os.version=10.0 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Max memory     =3790077952 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Available Processors =4 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: Default Locale=English (India) 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: JMeter  Locale=English (India) 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: JMeterHome=D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: user.dir  =D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
+2018/07/11 09:15:09 INFO  - jmeter.JMeter: PWD       =D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin 
+2018/07/11 09:15:18 INFO  - jmeter.JMeter: IP: 169.254.99.161 Name: IN-TDWIVEDI FullName: IN-TDWIVEDI.mycom-internal.com 
+2018/07/11 09:15:18 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2018/07/11 09:15:18 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2018/07/11 09:15:19 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/07/11 09:15:19 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/07/11 09:15:20 INFO  - jmeter.gui.util.MenuFactory: Skipping kg.apc.jmeter.config.VariablesFromCSVFile 
+2018/07/11 09:15:20 WARN  - jmeter.gui.util.MenuFactory: Missing jar? Could not create kg.apc.jmeter.config.redis.RedisDataSet. java.lang.NoClassDefFoundError: org/apache/commons/pool/impl/GenericObjectPool$Config 
+2018/07/11 09:15:20 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/07/11 09:15:21 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2018/07/11 09:15:21 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin\proxyserver.jks 
+2018/07/11 09:15:21 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2018/07/11 09:15:21 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2018/07/11 09:15:22 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2018/07/11 09:15:22 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/07/11 09:15:22 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/07/11 09:15:22 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/07/11 09:15:22 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/07/11 09:15:22 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2018/07/11 09:17:26 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:17:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:17:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:17:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:17:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:17:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:17:26 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:17:26 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:17:26 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:17:26 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:17:26 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:17:26 INFO  - jmeter.util.BeanShellTestElement: Count=null 
+2018/07/11 09:17:26 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``Failure=false;  var count=vars.get("COUNT_#"); var data=vars.get("COUNT_1");  lo . . . '' 
+2018/07/11 09:17:26 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``Failure=false;  var count=vars.get("COUNT_#"); var data=vars.get("COUNT_1");  lo . . . '' 
+2018/07/11 09:17:26 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:17:26 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:17:26 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:17:26 INFO  - jmeter.services.FileServer: Default base='D:\GIT\JenkinsDemo\apache-jmeter-3.0\apache-jmeter-3.0\bin' 
+2018/07/11 09:17:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:18:31 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:18:31 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:18:31 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:18:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:18:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:18:32 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:18:32 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:18:32 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:18:32 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:18:32 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:18:52 INFO  - jmeter.util.BeanShellTestElement: Count=null 
+2018/07/11 09:18:52 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``Failure=false;  var count=vars.get("COUNT_#"); var data=vars.get("COUNT_1");  lo . . . '' 
+2018/07/11 09:18:52 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``Failure=false;  var count=vars.get("COUNT_#"); var data=vars.get("COUNT_1");  lo . . . '' 
+2018/07/11 09:18:52 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:18:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:18:52 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:18:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:20:00 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:20:00 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:20:00 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:20:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:20:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:20:01 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:20:01 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:20:01 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:20:01 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:20:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:20:18 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:20:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:20:18 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:20:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:21:08 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:21:08 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:21:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:21:08 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:21:08 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:21:08 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:21:08 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:21:08 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:21:08 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:21:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:21:25 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:21:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:21:25 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:21:27 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:21:54 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:21:54 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:21:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:21:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:21:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:21:54 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:21:54 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:21:54 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:21:54 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:21:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:22:11 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:22:11 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:22:11 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:22:13 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:24:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:24:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:24:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:24:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:24:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:24:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:24:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:24:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:24:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:24:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:24:29 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:24:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:24:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:24:31 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:25:23 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:25:23 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:25:23 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:25:23 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:25:23 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:25:23 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:25:40 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:25:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:25:40 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:25:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:28:16 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:28:16 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:28:16 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:28:16 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:28:16 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:28:16 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:28:16 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:28:16 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:28:16 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:28:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:28:34 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:28:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:28:34 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:28:35 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:38:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:38:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:38:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:38:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:38:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:38:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:38:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:38:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:38:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:38:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:38:30 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:38:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:38:30 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:38:31 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:40:42 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:40:42 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:40:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:40:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:40:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:40:43 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:40:43 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:40:43 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:40:43 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:40:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:41:01 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:41:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:41:01 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:41:03 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:41:41 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:41:41 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:41:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:41:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:41:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:41:41 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:41:41 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:41:41 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:41:41 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:41:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:41:58 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:41:58 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:41:58 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:42:00 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:42:20 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:42:20 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:42:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:42:20 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:42:20 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:42:20 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:42:20 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:42:20 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:42:20 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:42:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:42:37 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:42:37 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:42:37 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:42:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:43:05 INFO  - jmeter.services.FileServer: Set new base='C:\Users\tdwivedi\Desktop\DB Purge' 
+2018/07/11 09:43:05 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/07/11 09:43:05 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/07/11 09:43:05 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2018/07/11 09:43:05 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/07/11 09:43:29 INFO  - jmeter.services.FileServer: Set new base='C:\Users\tdwivedi\Desktop\DB Purge' 
+2018/07/11 09:43:50 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:43:50 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:43:50 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:43:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:43:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:43:50 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:43:50 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:43:50 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:43:50 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:43:50 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:44:08 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:44:08 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:44:08 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:44:09 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:55:02 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:55:02 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:55:02 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:55:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:55:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:55:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:55:02 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:55:02 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:55:02 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:55:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:55:21 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:55:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:55:21 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:55:23 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:55:43 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:55:43 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:55:43 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:55:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:55:43 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:55:43 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:55:43 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:55:43 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:55:43 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:55:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:56:02 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:56:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:56:02 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:56:03 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:57:01 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:57:01 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:57:01 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:57:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:57:01 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:57:01 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:57:01 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:57:01 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:57:01 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:57:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:57:19 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:57:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:57:19 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:57:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 09:59:07 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 09:59:07 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 09:59:07 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 09:59:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 09:59:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 09:59:07 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 09:59:07 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 09:59:07 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 09:59:07 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 09:59:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 09:59:25 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 09:59:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 09:59:25 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 09:59:27 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 10:31:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 10:31:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 10:31:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 10:31:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 10:31:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 10:31:12 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 10:31:12 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 10:31:12 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 10:31:12 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 10:31:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 10:31:29 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 10:31:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 10:31:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 10:31:31 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 10:35:44 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 10:35:44 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 10:35:44 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 10:35:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 10:35:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 10:35:44 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 10:35:44 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 10:35:44 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 10:35:44 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 10:35:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 10:36:02 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 10:36:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 10:36:02 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 10:36:04 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 10:41:30 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 10:41:30 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 10:41:30 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 10:41:31 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 10:41:31 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 10:41:31 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 10:41:31 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 10:41:31 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 10:41:31 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 10:41:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 10:41:49 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 10:41:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 10:41:49 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 10:41:51 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 10:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 10:51:39 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 10:51:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 10:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 10:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 10:51:39 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 10:51:39 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 10:51:39 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 10:51:39 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 10:51:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 10:51:56 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 10:51:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 10:51:56 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 10:51:58 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 10:53:54 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 10:53:54 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 10:53:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 10:53:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 10:53:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 10:53:55 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 10:53:55 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 10:53:55 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 10:53:55 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 10:53:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 10:54:14 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 10:54:14 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 10:54:14 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 10:54:16 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/07/11 11:47:53 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.apache.jorphan.gui.MenuScroller.refreshMenu(MenuScroller.java:552)
+	at org.apache.jorphan.gui.MenuScroller.access$300(MenuScroller.java:55)
+	at org.apache.jorphan.gui.MenuScroller$MouseScrollListener.mouseWheelMoved(MenuScroller.java:578)
+	at java.awt.Component.processMouseWheelEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventToSelf(Unknown Source)
+	at java.awt.Component.dispatchMouseWheelToAncestor(Unknown Source)
 	at java.awt.Component.dispatchEventImpl(Unknown Source)
 	at java.awt.Container.dispatchEventImpl(Unknown Source)
 	at java.awt.Component.dispatchEvent(Unknown Source)
 	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.processDropTargetEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
 	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
 	at java.awt.Container.dispatchEventImpl(Unknown Source)
 	at java.awt.Window.dispatchEventImpl(Unknown Source)
@@ -149,136 +399,88 @@ version             : 3.0 r1743807
 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.awt.EventDispatchThread.run(Unknown Source)
-Caused by: com.thoughtworks.xstream.converters.ConversionException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
-------------------------------- : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
--------------------------------
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
--------------------------------
-cause-exception     : com.thoughtworks.xstream.converters.ConversionException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-first-jmeter-class  : org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:107)
-class               : org.apache.jmeter.save.ScriptWrapper
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-version             : 3.0 r1743807
--------------------------------
-	at org.apache.jmeter.save.ScriptWrapperConverter.createConversionException(ScriptWrapperConverter.java:103)
-	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:97)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134)
-	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1206)
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1190)
-	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1061)
-	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:524)
-	... 40 more
-Caused by: com.thoughtworks.xstream.converters.ConversionException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration' : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
----- Debugging information ----
-message             : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-cause-exception     : com.thoughtworks.xstream.converters.reflection.MissingFieldException
-cause-message       : No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-class               : org.apache.jmeter.samplers.SampleSaveConfiguration
-required-type       : org.apache.jmeter.samplers.SampleSaveConfiguration
-converter-type      : org.apache.jmeter.save.converters.SampleSaveConfigurationConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree/ResultCollector/objProp/value/sentBytes
-line number         : 162
-class[1]            : org.apache.jmeter.testelement.property.ObjectProperty
-converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
-class[2]            : org.apache.jmeter.reporters.ResultCollector
-converter-type[2]   : org.apache.jmeter.save.converters.TestElementConverter
-class[3]            : org.apache.jorphan.collections.ListedHashTree
-converter-type[3]   : org.apache.jmeter.save.converters.HashTreeConverter
--------------------------------
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:79)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:480)
-	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:412)
-	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:263)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
-	at org.apache.jmeter.save.converters.TestElementConverter.unmarshal(TestElementConverter.java:107)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:65)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50)
-	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:95)
-	... 50 more
-Caused by: com.thoughtworks.xstream.converters.reflection.MissingFieldException: No field 'sentBytes' found in class 'org.apache.jmeter.samplers.SampleSaveConfiguration'
-	at com.thoughtworks.xstream.converters.reflection.FieldDictionary.field(FieldDictionary.java:94)
-	at com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider.getField(PureJavaReflectionProvider.java:189)
-	at org.apache.jmeter.save.converters.SampleSaveConfigurationConverter.unmarshal(SampleSaveConfigurationConverter.java:167)
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72)
-	... 84 more
 
+2018/07/11 11:47:53 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.apache.jorphan.gui.MenuScroller.refreshMenu(MenuScroller.java:552)
+	at org.apache.jorphan.gui.MenuScroller.access$300(MenuScroller.java:55)
+	at org.apache.jorphan.gui.MenuScroller$MouseScrollListener.mouseWheelMoved(MenuScroller.java:578)
+	at java.awt.Component.processMouseWheelEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2018/07/11 11:47:53 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.apache.jorphan.gui.MenuScroller.refreshMenu(MenuScroller.java:552)
+	at org.apache.jorphan.gui.MenuScroller.access$300(MenuScroller.java:55)
+	at org.apache.jorphan.gui.MenuScroller$MouseScrollListener.mouseWheelMoved(MenuScroller.java:578)
+	at java.awt.Component.processMouseWheelEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2018/07/11 11:48:56 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/11 11:48:56 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/11 11:48:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/07/11 11:48:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2018/07/11 11:48:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2018/07/11 11:48:57 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/11 11:48:57 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/11 11:48:57 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/11 11:48:57 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/11 11:48:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2018/07/11 11:49:00 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2018/07/11 11:49:00 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2018/07/11 11:49:00 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/11 11:49:00 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
